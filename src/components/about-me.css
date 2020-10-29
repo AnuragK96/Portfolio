@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+  .media-aline {
+    padding: 2px !important;
+  }
+  .page-title-style {
+    padding: 2px !important;
+  }
+  .page-content-style {
+    padding: 10px 20px !important;
+  }
+  .master-title {
+    width: 280px;
+  }
+  .layout-css {
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .start-page-css {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px !important;
+  }
+  .start-page-content {
+    padding: 3px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-style {
+    display: none;
+  }
+  .main-page-text {
+    padding: 10px;
+  }
+  .divider-style {
+    display: none;
+  }
+}
+
+.left-position {
+  left: auto;
+  width: 450px;
+  height: 300px;
+}
+.right-position {
+  top: 650px;
+  left: 900px;
+  position: absolute;
+}
+.button-style {
+  display: inline-block;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  width: 146px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.text-style {
+  display: flex;
+  text-align: left;
+  flex: 1;
+}
+
+.text-related-property {
+  text-align: left;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.page-content-style {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px 60px;
+}
+.page-title-style {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+}
+.media-aline {
+  padding: 0px 40px;
+}
