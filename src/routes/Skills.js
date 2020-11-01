@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
-import HeaderTitle from "../components/HeaderTitle";
 import SkillsBody from "../components/SkillsBody";
 import { Divider } from "antd";
+import techdetails from "../images/web-techs.png";
+import dataminingimage from "../images/data-mining.png";
+import dbimage from "../images/db-tech.png";
+import softmethodimage from "../images/soft-methods.png";
 
 function Skills() {
   useEffect(() => {
-    document.title = "MR-Skills";
+    document.title = "AK-Skills";
   });
   return (
     <>
-      <HeaderTitle name="SKILLS" />
       <div
         style={{
           padding: "30px 20px",
@@ -21,6 +23,7 @@ function Skills() {
       >
         <SkillsBody
           title="Data Mining"
+          imagedetails={dataminingimage}
           skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
         />
         <Divider
@@ -30,8 +33,9 @@ function Skills() {
         />
 
         <SkillsBody
-          title="Data Mining"
-          skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
+          title="Web Technologies"
+          imagedetails={techdetails}
+          skillstext="ReactJS | NodeJS | Redux | Javascript | CSS3 | HTML5 | Bootstrap | JSON | JQuery | Java | Python | C |"
         />
         <Divider
           type="vertical"
@@ -40,8 +44,9 @@ function Skills() {
         />
 
         <SkillsBody
-          title="Data Mining"
-          skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
+          title="Database Technologies"
+          imagedetails={dbimage}
+          skillstext="MySQL | MongoDB | PostgreSQL"
         />
         <Divider
           type="vertical"
@@ -49,26 +54,9 @@ function Skills() {
           className="divider-style"
         />
         <SkillsBody
-          title="Data Mining"
-          skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
-        />
-        <Divider
-          type="vertical"
-          style={{ height: "155px" }}
-          className="divider-style"
-        />
-        <SkillsBody
-          title="Data Mining"
-          skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
-        />
-        <Divider
-          type="vertical"
-          style={{ height: "155px" }}
-          className="divider-style"
-        />
-        <SkillsBody
-          title="Data Mining"
-          skillstext="Data Pre-processing | Data Mining | Decision Trees | Classification Methods | Clustering Analysis | Frequent Pattern Mining"
+          title="Software Methodologies"
+          imagedetails={softmethodimage}
+          skillstext="SDLC | Agile and Scrum Methodologies | Software Documentation"
         />
         <Divider
           type="vertical"

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const { Text } = Typography;
 
-function ContactBody({ title, contactdetail, mailId }) {
+function ContactBody({ title, contactdetail, mailId, link }) {
   return (
     <div
       style={{
@@ -33,6 +33,10 @@ function ContactBody({ title, contactdetail, mailId }) {
             rel="noreferrer"
             href="mailto:kurapatianurag1@gmail.com"
           >
+            {contactdetail}
+          </a>
+        ) : link ? (
+          <a target="_blank" rel="noreferrer" href={contactdetail}>
             {contactdetail}
           </a>
         ) : (

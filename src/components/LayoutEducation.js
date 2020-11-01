@@ -11,7 +11,7 @@ function LayoutEducation({
   children,
 }) {
   return (
-    <div style={{ paddingTop: "30px" }} className="layout-css">
+    <div className="layout-css">
       <Image width={80} src={imagedetails} style={{ paddingBottom: "10px" }} />
       <Title level={2}>{universityname}</Title>
       <Title level={4}>{coursedetails}</Title>
@@ -22,7 +22,6 @@ function LayoutEducation({
 
 LayoutEducation.propTypes = {
   universityname: PropTypes.string,
-  coursedetails: PropTypes.number,
   imagedetails: PropTypes.node,
   children: PropTypes.object,
 };

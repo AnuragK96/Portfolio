@@ -4,13 +4,14 @@ import ProjectsTitle from "./ProjectsTitle";
 import ProjectBody from "./ProjectBody";
 import "./about-me.css";
 
-function ProjectDetails({
+function ExperienceDetails({
   companyname,
   role,
   dateDetails,
   technicalrelated,
   BulletPoints1,
   BulletPoints2,
+  photodetails,
 }) {
   return (
     <div className="media-aline">
@@ -19,7 +20,7 @@ function ProjectDetails({
         companyname={companyname}
         role={role}
         dateDetails={dateDetails}
-        proj
+        photodetails={photodetails}
       />
       <ProjectBody
         technicalrelated={technicalrelated}
@@ -30,4 +31,4 @@ function ProjectDetails({
   );
 }
 
-export default ProjectDetails;
+export default ExperienceDetails;

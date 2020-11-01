@@ -6,14 +6,20 @@ const { Title } = Typography;
 
 function HeaderTitle({ name, subname }) {
   return (
-    <div style={{ backgroundColor: "#A7A493", padding: "100px" }}>
+    <div style={{ padding: "90px", paddingTop: "10px" }}>
       <Title
-        style={{ color: "#1167b1	", fontFamily: "sans-serif", fontSize: "36px" }}
+        style={{
+          color: "#FFFFFF",
+          fontFamily: "Quicksand",
+          fontSize: "60px",
+          fontWeight: "100",
+          textAlign: "center",
+        }}
       >
         {name}
       </Title>
       {subname && (
-        <Title level={3} style={{ fontFamily: "serif" }}>
+        <Title level={3} style={{ fontStyle: "italic", textAlign: "center" }}>
           {subname}
         </Title>
       )}
@@ -23,6 +29,6 @@ function HeaderTitle({ name, subname }) {
 
 HeaderTitle.propTypes = {
   name: PropTypes.string.isRequired,
-  subname: PropTypes.string.isRequired,
+  subname: PropTypes.string,
 };
 export default HeaderTitle;

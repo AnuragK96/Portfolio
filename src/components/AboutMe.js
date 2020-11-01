@@ -11,9 +11,9 @@ function AboutMe() {
   return (
     <>
       <div style={{ paddingRight: "700px", paddingTop: "60px" }}>
-        <h4 style={{ color: "#1167b1" }}>
+        <h3 style={{ color: "#1167b1", paddingLeft: "180px" }}>
           FULL-STACK DEVELOPER ​| GRADUATE STUDENT{" "}
-        </h4>
+        </h3>
       </div>
       <div
         style={{

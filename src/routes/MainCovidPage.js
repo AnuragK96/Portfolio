@@ -17,7 +17,6 @@ class MainCovidPage extends Component {
 
   async componentDidMount() {
     const data = await fetchData();
-    console.log("data :>> ", data);
     this.setState({ data });
   }
 
@@ -31,8 +30,8 @@ class MainCovidPage extends Component {
     const { data, country } = this.state;
 
     return (
-      <div className={styles.container}>
-        <img className={styles.image} src={image} alt="COVID-19" />
+      <div className="container">
+        <img className="image" src={image} alt="COVID-19" />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />

@@ -11,7 +11,6 @@ const TextScroller = ({ text }) => {
     to: { transform: "translate(-60%,0)" },
     config: { duration: 11000 },
     reset: true,
-    //reverse: key % 2 == 0,
     onRest: () => {
       setKey(key + 1);
     },
