@@ -23,7 +23,7 @@ function Experience() {
         companyname="I-EXCEED TECHNOLOGY SOLUTIONS, India"
         role="SOFTWARE ENGINEER"
         dateDetails="Jan 2017-July 2019"
-        technicalrelated="Technical Skills Used: ReactJS, NodeJS, Redux, MongoDB, MySQL, Rest API’s,Postman, Html, CSS, Bootstrap"
+        
         BulletPoints1="Design, develop and maintain web and mobile based applications employing various tools and technologies. "
         BulletPoints2="Developed a micro service architecture based commercial web application that can be configured and used by banks to manage their corporate/business accounts using rest API’s."
         BulletPoints3="Involved in various phases of Software Development Life Cycle (SDLC) such as requirements gathering, modelling, analysis, design, development, and testing."
@@ -34,7 +34,7 @@ function Experience() {
         companyname="TAZZO TECHNOLOGY SOLUTIONS, India"
         role="SOFTWARE ENGINEER"
         dateDetails="Jan 2016-Jan 2017"
-        technicalrelated="Technical Skills Used: ReactJS, NodeJS, Redux, MongoDB, Rest API’s,Postman, Html, CSS"
+        
         BulletPoints1="Built a mobile application which can help users to book rental motorbikes based on location and allows users to track the availability of two wheelers at the nearest station."
         BulletPoints2="It also allows users to request for free delivery and pick ups, through mobile app."
         photodetails={TAZZO}

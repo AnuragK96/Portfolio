@@ -89,7 +89,7 @@ class AppShell extends Component {
         </Content>
         <Footer style={{ backgroundColor: "white" }}>
           <Divider />
-          <TextScroller text="Now switch the tabs to know me Better" />
+          <TextScroller style={{ fontWeight:"500px"}} text="Now switch the tabs to know me Better" />
           <Divider />
         </Footer>
       </Layout>
