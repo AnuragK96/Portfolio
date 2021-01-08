@@ -35,7 +35,7 @@ function Skills() {
         <SkillsBody
           title="Web Technologies"
           imagedetails={techdetails}
-          skillstext="ReactJS | NodeJS | Redux | Javascript | CSS3 | HTML5 | Bootstrap | JSON | JQuery | Java | Python | C |"
+          skillstext="ReactJS | NodeJS | Redux | PHP | Javascript | CSS3 | HTML5 | Bootstrap | JSON | JQuery | Lavarel | Java | Python | C |"
         />
         <Divider
           type="vertical"
